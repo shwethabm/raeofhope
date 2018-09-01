@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<style>
+	.h{
+		text-align: center;
+        color: crimson;
+        font-size: 60px;
+	}
+	#i{
+		height: 200px;
+		position: relative;
+		top: -80px;
+		left: 300px;
+	}
+	.s{
+		position: relative;
+		left: 500px;
+		top: -190px;
+		font-size: 30px; 
+		color: deeppink;
+	}
+	.hope{
+		height:  400px;
+		width: 100%;
+		position: relative;
+		top: -160px;
+	}
+	.for{
+        width: 60%;
+        background-color: transparent;
+        padding-left: 20px;
+	}
+	.l{
+		font-size: 30px;
+		padding-left: 90px;
+	}
+	#box{
+       background-image: url('cloud2.jpg');
+       background-repeat: no-repeat;
+       background-size: 100%;
+       height: 350px;
+       width: 60%;
+       position: relative;
+       top: -140px;
+       left:160px;
+	}
+</style><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+          
+</head>
+<body>
+	<div class="row">
+  <div class="col"></div>
+  <div class="col"></div>
+  <div class="col"></div>
+</div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+  </ul>
+</nav>
+
+<h1 class="h">RAE OF HOPE</h1>
+
+<img src="smile.jpg" class="rounded-circle" id="i">
+<p class="s">a step towards changing the world!</p>
+
+
+
+<img src="dove2.jpg" class="hope">
+<div id="box" class="rounded">
+<form action="/action_page.php" class="for">
+	<p class="l">LOGIN</p>
+  <div class="form-group">
+    <label for="email">Username:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">login</button>
+</form></div>
+</body>
+</html>
