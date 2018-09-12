@@ -7,11 +7,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
  <style> 
 body {
-    font-family: "Lato", sans-serif;
-    background-color: brown;
-    background-image: url('tree.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    
+    background: rgb(0,102,100); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
 }
 
 .sidenav {
@@ -19,7 +21,7 @@ body {
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 0px;
     left: 0;
     background-color: crimson;
     overflow-x: hidden;
@@ -111,7 +113,7 @@ body {
 <h class="h1">RAE OF HOPE</h>
 <p class="h2">A step towards changing the world!</p></div>
 
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+<span style="font-size:30px;position:relative;top:-45px;cursor:pointer" onclick="openNav()">&#9776; </span>
 
 <script>
 function openNav() {

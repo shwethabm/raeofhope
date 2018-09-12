@@ -92,6 +92,7 @@
       margin-left: 530px;
       height: 450px;
       background-color: purple;
+      
     }
     .user{
       font-size: 30px;
@@ -113,6 +114,15 @@
     position: relative;
     top: 20px;
 }
+#latestim{
+  height: 300px;
+  margin: 20px;
+}
+.status{
+  position: relative;
+  top: -400px;
+  left: 450px;
+}
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
@@ -133,7 +143,7 @@
 <h class="h1">RAE OF HOPE</h>
 <p class="h2">A step towards changing the world!</p></div>
 
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+<span style="font-size:30px;position:relative;top:-45px;cursor:pointer" onclick="openNav()">&#9776; </span>
 
 <script>
 function openNav() {
@@ -176,7 +186,11 @@ $("#imageUpload").change(function(){
 </script>
 </div> 
 <div class="card" id="box2">
-<div>
-
+  <figure class="figure"><img class="img-responsive" src="image.png" alt="image.png" id="latestim"><figcaption class="figure-caption">username<br><p id="date"></p><script>
+    document.getElementById("date").innerHTML = Date();
+  </script></figcaption> </figure>
+  <div class="status"><h3 style="color:crimson;">LATEST REPORT STATUS</h3><h5 style="color:white;">Investigation in progress!</h5><br><h5 style="color:crimson;"">Want to contact authorities?</h5><br>
+    <h5 style="color:blue;"><address><a href="mailto:abc@gmail.com">abc@gmail.com</a></address></h5></div>
+</div>
 </body>
 </html> 
