@@ -1,2 +1,3 @@
 # raeofhope
 A website to solve problems in women's lives...
+In a way that would change the whole idea of dicrimination.
